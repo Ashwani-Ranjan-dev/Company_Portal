@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { registerUser } from "../services/authService";
+import { registerUser } from "../services/authService.js";
 
 const Register = () => {
     const [formData, setFormData] = useState({

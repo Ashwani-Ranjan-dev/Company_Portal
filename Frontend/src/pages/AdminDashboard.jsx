@@ -11,7 +11,7 @@ import {
 
 import { useAuth } from "../context/AuthContext";
 
-import { getEmployees } from "../services/authService";
+import { getEmployees } from "../services/authService.js";
 
 import DashboardLayout from "../components/layout/DashboardLayout";
 
