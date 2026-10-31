@@ -11,7 +11,8 @@ import {
 } from "lucide-react";
 
 import { useAuth } from "../context/AuthContext";
-import { getAdmins } from "../services/authService";
+import { getAdmins } from "../services/authService.js";
+
 
 const EmployeeDashboard = () => {
   const { user, logout } = useAuth();
